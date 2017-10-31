@@ -11,6 +11,9 @@
     "test": "npm run build && mocha test/setup.js test/*.spec.js",
     "postinstall": "npm run less && webpack"
   },
+  "engines": {
+    "node": "8.7.0"
+  },
   "dependencies": {
     "axios": "^0.16.1",
     "babel": "^6.3.26",
